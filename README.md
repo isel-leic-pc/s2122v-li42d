@@ -1,2 +1,2 @@
 # s2122v-li42d
-Repo for LEIC42D class
+Concurrent Programming - 2021/2022 - LEIC42D
