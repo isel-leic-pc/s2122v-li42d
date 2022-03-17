@@ -37,4 +37,10 @@ dependencies {
 
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api("org.apache.commons:commons-math3:3.6.1")
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testImplementation("org.slf4j:slf4j-simple:1.8.0-beta4")
+    implementation("org.slf4j:slf4j-simple:1.8.0-beta4")
+
+    implementation("io.github.microutils:kotlin-logging:1.12.5")
 }
