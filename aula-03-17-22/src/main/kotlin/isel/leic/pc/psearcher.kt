@@ -22,7 +22,7 @@ fun psearch(values: Array<String>, ref: String) : Int {
     for(i in 0 .. nprocs-1) {
         val start = globalStart
         val localIndex = i
-        val end = if (globalStart + psize < values.size)
+        val end = if (start + psize < values.size)
                     start + psize -1
                   else
                     values.size -1
@@ -64,13 +64,13 @@ fun test( function : (Array<String>, String) -> Int,
         }
     }
 
-    println("$prefix find=$total in ${minTime} ms!")
+    println("$prefix find=$total in ${minTime} nanos!")
 }
 
 private fun buildString() : String {
     val sb = StringBuilder()
 
-    for( i in 0..700)
+    for( i in 0..70000)
         sb.append('a' + (i % 24))
 
     return sb.toString()
@@ -79,7 +79,7 @@ private fun buildString() : String {
 
 private fun main() {
     val s = buildString()
-    val values = Array<String>(100_000) { s }
+    val values = Array<String>(1000_000) { s }
 
     test(::search, values,buildString(), "serial" )
     test(::psearch, values, buildString(), "parallel" )
