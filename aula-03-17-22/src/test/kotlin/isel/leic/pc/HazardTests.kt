@@ -15,7 +15,7 @@ class HazardTests {
         for (i in 0 until  NTRANSFERS) {
 
             //System.out.printf("start transfer from %d to %d\n", srcIdx, dstIdx);
-            src.transfer2(dst, 10)
+            src.transfer0(dst, 10)
             //System.out.printf("end transfer from %d to %d\n", srcIdx, dstIdx);
         }
     }
@@ -88,15 +88,23 @@ class HazardTests {
 
         val threads =
             IntRange(0,1)
+                .asSequence()
                 .map {
+
                     thread {
+                        val name = Thread.currentThread().name
+                        println("Enter thread $it, name $name")
                         transfers(accounts, it)
+                        println("Leave thread $it, name $name")
                     }
                 }
-
+        println("before forEach")
         threads.forEach {
+            println("Waiting for thread ${it.name} termination")
             it.join()
+            println("thread ${it.name} terminate")
         }
-        assertEquals(2000, accounts[0].getBalance() + accounts[1].getBalance())
+        assertEquals(2000, accounts[0].getBalance() +
+                accounts[1].getBalance())
     }
 }

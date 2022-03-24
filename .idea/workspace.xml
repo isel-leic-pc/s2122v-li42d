@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0825c203-4b19-42a8-8c9f-2cf021b0d2f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/src/main/kotlin/isel/leic/pc/EchoServer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/src/main/kotlin/isel/leic/pc/first.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/src/main/kotlin/isel/leic/pc/lazyBuild.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/src/main/kotlin/isel/leic/pc/psearcher.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17/src/test/kotlin/isel/leic/pc/HazardTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-17-22/src/test/kotlin/isel/leic/pc/HazardTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-17-22/src/test/kotlin/isel/leic/pc/HazardTests.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +21,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,6 +36,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26pMSPIuUXFwFeYMytAuf78YDES" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -42,6 +46,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Kotlin.EchoServerBoundedKt">
+    <configuration name="HazardTests.multiple_account_transfer_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-03-17-22:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.HazardTests.multiple_account_transfer_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EchoServerBoundedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.flowsynch.EchoServerBoundedKt" />
+      <module name="s2122v-li42d.aula-03-24.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.EchoServerBoundedKt" />
+        <item itemvalue="Gradle.HazardTests.multiple_account_transfer_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +94,10 @@
       <option name="presentableId" value="Default" />
       <updated>1648116078450</updated>
       <workItem from="1648116083584" duration="68000" />
+      <workItem from="1648116244104" duration="9699000" />
+      <workItem from="1648133874307" duration="1406000" />
+      <workItem from="1648136406404" duration="8682000" />
+      <workItem from="1648160700347" duration="638000" />
     </task>
     <servers />
   </component>
