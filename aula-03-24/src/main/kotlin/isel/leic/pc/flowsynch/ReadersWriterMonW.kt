@@ -1,17 +1,12 @@
 package isel.leic.pc.flowsynch
 
-import java.util.concurrent.Semaphore
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 
-/**
- * A simplistic monitor for support
- * a readers/writers lock
- * with readers priority
- */
-class ReadersWritersMon {
+class ReadersWriterMonW {
     private var nReaders = 0
     private var waitingReaders = 0
+    private var waitingWriters = 0
     private val mutex = ReentrantLock()
     private var writing = false
     private val canRead = mutex.newCondition()
@@ -20,28 +15,30 @@ class ReadersWritersMon {
 
     fun enterReader() {
         mutex.withLock {
-           waitingReaders++
-           while(writing) {
-               canRead.await()
-           }
-           waitingReaders--
-           nReaders++
+            waitingReaders++
+            while(writing || waitingWriters > 0) {
+                canRead.await()
+            }
+            waitingReaders--
+            nReaders++
         }
     }
 
     fun leaveReader() {
         mutex.withLock {
             nReaders--
-            if (nReaders == 0)
+            if (nReaders == 0 && waitingWriters > 0)
                 canWrite.signal()
         }
     }
 
     fun enterWriter() {
         mutex.withLock {
+            waitingWriters++
             while(nReaders > 0 || writing) {
                 canWrite.await()
             }
+            waitingWriters--
             writing = true
         }
     }
@@ -49,10 +46,10 @@ class ReadersWritersMon {
     fun leaveWriter() {
         mutex.withLock {
             writing = false
-            if (waitingReaders > 0)
-                canRead.signalAll()
-            else
+            if (waitingWriters > 0)
                 canWrite.signal()
+            else if(waitingReaders > 0)
+                canRead.signalAll()
         }
     }
 }

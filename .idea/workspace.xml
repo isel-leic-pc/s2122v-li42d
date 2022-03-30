@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0825c203-4b19-42a8-8c9f-2cf021b0d2f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-17-22/src/test/kotlin/isel/leic/pc/HazardTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-17-22/src/test/kotlin/isel/leic/pc/HazardTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersLock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersLock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersMon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersMon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.monitors" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.EchoServerBoundedKt">
     <configuration name="HazardTests.multiple_account_transfer_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -98,6 +103,15 @@
       <workItem from="1648133874307" duration="1406000" />
       <workItem from="1648136406404" duration="8682000" />
       <workItem from="1648160700347" duration="638000" />
+      <workItem from="1648201956152" duration="165000" />
+      <workItem from="1648225299647" duration="1508000" />
+      <workItem from="1648460926188" duration="644000" />
+      <workItem from="1648538072545" duration="5375000" />
+      <workItem from="1648559469095" duration="105000" />
+      <workItem from="1648570691649" duration="4363000" />
+      <workItem from="1648577395706" duration="596000" />
+      <workItem from="1648629377546" duration="1826000" />
+      <workItem from="1648660561874" duration="1283000" />
     </task>
     <servers />
   </component>
