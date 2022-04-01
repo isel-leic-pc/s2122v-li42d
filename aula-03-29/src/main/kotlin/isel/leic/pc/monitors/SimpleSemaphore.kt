@@ -9,9 +9,9 @@ class SimpleSemaphore(private var permits: Int) {
     val hasPermits : Condition = mutex.newCondition()
 
     /*
-      As we see in the next lecture this simple solution may not
+      As we will see in the next lecture this simple solution may not
       work well if the await on the condition throws a InterruptedException.
-      Since a notification can be lost
+      since a notification can be lost
      */
     fun acquire() {
         mutex.withLock {

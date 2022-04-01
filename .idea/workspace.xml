@@ -7,8 +7,8 @@
     <list default="true" id="0825c203-4b19-42a8-8c9f-2cf021b0d2f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersLock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersLock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersMon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/ReadersWritersMon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-29/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-29/src/main/kotlin/isel/leic/pc/monitors/SimpleSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-29/src/main/kotlin/isel/leic/pc/monitors/SimpleSemaphore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -46,10 +47,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-03-29" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-03-29" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="isel.leic.pc.monitors" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.monitors2" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.EchoServerBoundedKt">
@@ -112,10 +120,36 @@
       <workItem from="1648577395706" duration="596000" />
       <workItem from="1648629377546" duration="1826000" />
       <workItem from="1648660561874" duration="1283000" />
+      <workItem from="1648662377335" duration="603000" />
+      <workItem from="1648732805455" duration="312000" />
+      <workItem from="1648733137692" duration="7768000" />
+      <workItem from="1648804162580" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/monitors2/SemaphoreFifo.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
