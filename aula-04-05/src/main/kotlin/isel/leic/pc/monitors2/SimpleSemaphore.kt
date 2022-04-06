@@ -1,4 +1,6 @@
-package isel.leic.pc.monitors
+package isel.leic.pc.monitors2
+
+import isel.leic.pc.utils.*
 
 import java.util.concurrent.locks.Condition
 import java.util.concurrent.locks.ReentrantLock
@@ -10,38 +12,41 @@ class SimpleSemaphore(private var permits: Int) {
     val hasPermits : Condition = mutex.newCondition()
 
     /*
-      As we will see in the next lecture this simple solution may not
+      As we see in the next lecture this simple solution may not
       work well if the await on the condition throws a InterruptedException.
-      since a notification can be lost
+      Since a notification can be lost
      */
-    @Throws(InterruptedException::class)
-    fun acquire() {
+    fun acquire(timeout: Duration) : Boolean {
         mutex.withLock {
+            // fast path
+            if (permits > 0) {
+                permits--
+                return true
+            }
+            if (timeout.isZero) {
+                return false
+            }
+
+            val dueTime = timeout.dueTime()
             /*
                Note that, due to barging we should revaluate the
                wait condition, the while is real necessary
              */
-            try {
-                while (permits == 0) {
-                    hasPermits.await()
-                }
-                permits -= 1
-            }
-            catch(e : InterruptedException) {
-                /*
+            do {
+                hasPermits.await(dueTime)
                 if (permits > 0) {
-                    Thread.currentThread().interrupt();
-                    permits--;
-                    return;
+                    permits--
+                    return true
                 }
-                */
-                if (permits > 0) {
-                    hasPermits.signal()
-                }
-                throw e
+                if (dueTime.isPast)
+                    return false
+
             }
+            while(true)
+            permits -= 1
         }
     }
+
 
     fun release() {
         mutex.withLock {

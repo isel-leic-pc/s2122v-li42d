@@ -30,7 +30,7 @@ class MutableTimeout(var duration: Duration) {
         get() = nanos <= 0
 
     var nanos : Long
-        get() = duration.inWholeMilliseconds
+        get() = duration.inWholeNanoseconds
         set(value) {
             duration = value.toDuration(DurationUnit.NANOSECONDS)
         }
