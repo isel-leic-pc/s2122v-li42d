@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaa59a2-cbe5-46d3-80af-a1c6f90ddcb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-29/src/main/kotlin/isel/leic/pc/monitors/SimpleSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-29/src/main/kotlin/isel/leic/pc/monitors/SimpleSemaphore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/monitors2/SemaphoreFifo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SemaphoreFifo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/NodeList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-31/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="8b1a98f8-f670-4f59-9d1f-f75b0609feb5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SemaphoreFifo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/NodeList.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27QzIwcFlOQzGn7icLK1aUtWGJO" />
+  <component name="ProjectId" id="27Ts8HhIJczFhQathVhqtFOpE0o" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -48,16 +38,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1eaa59a2-cbe5-46d3-80af-a1c6f90ddcb5" name="Changes" comment="" />
-      <created>1649267028601</created>
+      <changelist id="8b1a98f8-f670-4f59-9d1f-f75b0609feb5" name="Changes" comment="" />
+      <created>1649355255453</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649267028601</updated>
-      <workItem from="1649267031573" duration="75000" />
+      <updated>1649355255453</updated>
+      <workItem from="1649355261958" duration="448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
