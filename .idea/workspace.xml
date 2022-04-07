@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a98f8-f670-4f59-9d1f-f75b0609feb5" name="Changes" comment="">
+    <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/MessageBoard.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SemaphoreFifo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/NodeList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +21,24 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27Ts8HhIJczFhQathVhqtFOpE0o" />
+  <component name="ProjectId" id="27Tu16xtnh2pK7SPWUpGKncptjD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -35,15 +47,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.monitors3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b1a98f8-f670-4f59-9d1f-f75b0609feb5" name="Changes" comment="" />
-      <created>1649355255453</created>
+      <changelist id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="" />
+      <created>1649356186189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649355255453</updated>
-      <workItem from="1649355261958" duration="448000" />
+      <updated>1649356186189</updated>
+      <workItem from="1649356192084" duration="1536000" />
     </task>
     <servers />
   </component>

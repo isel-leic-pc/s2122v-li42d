@@ -45,3 +45,10 @@ fun Condition.await(mutableTimeout: MutableTimeout) {
         }
     }
 }
+
+
+// added to support convertion from java TimeUnits
+fun Long.toDuration( unit : TimeUnit) : Duration {
+    val result = TimeUnit.MILLISECONDS.convert(this, unit)
+    return result.toDuration(DurationUnit.MILLISECONDS)
+}
