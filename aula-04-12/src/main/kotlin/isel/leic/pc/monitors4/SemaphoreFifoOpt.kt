@@ -1,5 +1,6 @@
-package isel.leic.pc.monitors3
+package isel.leic.pc.monitors4
 
+import isel.leic.pc.monitors4.utils.NodeList
 import isel.leic.pc.utils.await
 import isel.leic.pc.utils.dueTime
 import isel.leic.pc.utils.isPast
@@ -9,10 +10,13 @@ import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 import kotlin.time.Duration
 
-class SemaphoreFifo(private var permits : Int) {
+/**
+ * A semaphore fifo variant using NodeList for optimization
+ */
+class SemaphoreFifoOpt(private var permits : Int) {
     private val monitor = ReentrantLock()
 
-    private val pendingAcquires = mutableListOf<PendingAcquire>()
+    private val pendingAcquires = NodeList<PendingAcquire>()
 
     class PendingAcquire(val units: Int, val condition: Condition) {
         var done : Boolean = false
@@ -30,18 +34,18 @@ class SemaphoreFifo(private var permits : Int) {
             // wait path
             val waiter = PendingAcquire(units, monitor.newCondition())
             val dueTime = timeout.dueTime()
-            pendingAcquires.add(waiter)
+            var node = pendingAcquires.add(waiter)
             do {
                 try {
                     waiter.condition.await(dueTime)
                     if (waiter.done) return true
                     if (dueTime.isPast) {
-                        pendingAcquires.remove(waiter)
+                        pendingAcquires.remove(node)
                         return false
                     }
                 }
                 catch(e: InterruptedException) {
-                    pendingAcquires.remove(waiter)
+                    pendingAcquires.remove(node)
                     throw e
                 }
             }
@@ -51,8 +55,8 @@ class SemaphoreFifo(private var permits : Int) {
 
     private fun notifyWaiters() {
         while(pendingAcquires.size > 0 &&
-              permits >= pendingAcquires.first().units) {
-            val waiter = pendingAcquires.removeFirst()
+            permits >= pendingAcquires.first().units) {
+            val waiter = pendingAcquires.removeFirst().value
             permits -= waiter.units
             waiter.done = true
             waiter.condition.signal()

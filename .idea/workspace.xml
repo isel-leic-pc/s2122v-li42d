@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/utils/timeouts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-07/src/main/kotlin/isel/leic/pc/monitors3/SemaphoreFifo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-07/src/main/kotlin/isel/leic/pc/monitors3/SemaphoreFifo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +46,90 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PG3/1s2021-2022/alunos/grupos/grupo12/2122i-lr31d-G12" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="isel.leic.pc.monitors3" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Series1Tests.blocking_message_multiple_send_receive">
+    <configuration name="Series1Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-04-12:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.monitors4.Series1Tests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Series1Tests.blocking message single dequeue on an initial empty queue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-04-12:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.monitors4.Series1Tests.blocking message single dequeue on an initial empty queue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Series1Tests.blocking_message_multiple_send_receive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-04-12:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.monitors4.Series1Tests.blocking_message_multiple_send_receive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Series1Tests.blocking_message_multiple_send_receive" />
+        <item itemvalue="Gradle.Series1Tests.blocking message single dequeue on an initial empty queue" />
+        <item itemvalue="Gradle.Series1Tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +140,15 @@
       <option name="presentableId" value="Default" />
       <updated>1649356186189</updated>
       <workItem from="1649356192084" duration="1536000" />
+      <workItem from="1649411690190" duration="347000" />
+      <workItem from="1649619381746" duration="699000" />
+      <workItem from="1649621442323" duration="595000" />
+      <workItem from="1649665929603" duration="29000" />
+      <workItem from="1649761270575" duration="914000" />
+      <workItem from="1649773360435" duration="3781000" />
+      <workItem from="1649780084317" duration="2509000" />
+      <workItem from="1649787600329" duration="4404000" />
+      <workItem from="1649801526186" duration="1000" />
     </task>
     <servers />
   </component>
@@ -77,5 +165,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt</url>
+          <line>162</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
