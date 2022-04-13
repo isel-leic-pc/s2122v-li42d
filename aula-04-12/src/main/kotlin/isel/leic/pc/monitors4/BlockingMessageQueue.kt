@@ -13,7 +13,6 @@ import kotlin.time.Duration
 
 class BlockingMessageQueue<T>(private val capacity: Int) {
 
-
     @Throws(InterruptedException::class)
     fun tryEnqueue(messages: List<T>, timeout: Duration): Boolean {
         TODO()
@@ -23,4 +22,5 @@ class BlockingMessageQueue<T>(private val capacity: Int) {
     fun tryDequeue(timeout: Duration): T? {
        TODO()
     }
+
 }

@@ -2,7 +2,7 @@ package isel.leic.pc.monitors4
 
 import mu.KLogger
 import mu.KotlinLogging
-import org.junit.Assert
+import org.junit.Assert.*
 import org.junit.Test
 import java.util.*
 import java.util.concurrent.locks.ReentrantLock
@@ -53,23 +53,31 @@ class Series1Tests {
         t.join(2000)
 
         // do the necessary assertions
-        Assert.assertEquals(expectedResult, result)
+        assertEquals(expectedResult, result)
     }
+
 
     /**
      * A more complicated test that should be done after the simple tests
      * already succeed
-     * In this case we have an arbitrary number of enqueuers  and dequeuers
+     * In this case we have an arbitrary number of enqueuers and dequeuers
      * the test parametrizes the number of each.
      * Initially it should be parametrized to the most simple situation, NREADERS=NWRITERS=1
      * Varying capacity can test scenarios where enqueuers need to block
+     * Note that this code could be refactored to an auxiliary method that
+     * could be used to build tests for different scenarios.
+     * Something like this:
+     *   private fun <T>  exec_bmq_test(nwriters : Int = 1,
+     *                                  nreaders : Int = 1,
+     *                                  capacity : Int = 1,
+     *                                  colSupplier : () -> Collection<T>)
+     *                                      : Collection<T>
      */
     @Test
     fun blocking_message_multiple_send_receive() {
         val NWRITERS = 4
         val NREADERS = 3
         val CAPACITY = 5
-
 
         val listOfLists = listOf(
             listOf(1,2,3),
@@ -79,6 +87,7 @@ class Series1Tests {
             listOf(11, 12, 13),
             listOf(14,15,16,17),
             listOf(18,19,20))
+
 
         val RESULT_SIZE =
             listOfLists
@@ -97,6 +106,7 @@ class Series1Tests {
         var writeInputIndex = 0
         val mutex = ReentrantLock()
 
+        val expectedSet = IntRange(1, 20).toSet()
 
         val writerThreads = mutableListOf<Thread>()
         val readerThreads = mutableListOf<Thread>()
@@ -145,7 +155,7 @@ class Series1Tests {
         for(wt in writerThreads) {
             wt.join(3000)
             if (wt.isAlive) {
-                Assert.fail("too much execution time for writer thread")
+                fail("too much execution time for writer thread")
             }
         }
 
@@ -153,25 +163,22 @@ class Series1Tests {
         for(rt in readerThreads) {
             rt.join(3000)
             if (rt.isAlive) {
-                Assert.fail("too much execution time for reader thread")
+                fail("too much execution time for reader thread")
             }
         }
 
+        // final assertions
         val resultSet = TreeSet<Int>()
 
         repeat(RESULT_SIZE) {
             val r = resultQueue.tryDequeue(Duration.ZERO)
             if (r == null) {
-                Assert.fail("failed tryDequeue operation on result queue")
+                fail("failed tryDequeue operation on result queue")
             }
             resultSet.add(r!!)
         }
 
-        Assert.assertEquals(RESULT_SIZE, resultSet.size)
-        var previous = 0
-        for (v in resultSet) {
-            Assert.assertEquals(previous+1, v)
-            previous = v
-        }
+        assertEquals(RESULT_SIZE, resultSet.size)
+        assertEquals(expectedSet, resultSet);
     }
 }
