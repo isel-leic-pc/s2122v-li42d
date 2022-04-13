@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="isel.leic.pc.monitors3" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Series1Tests.blocking_message_multiple_send_receive">
+  <component name="RunManager" selected="Kotlin.EchoServerBoundedKt">
     <configuration name="Series1Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,8 +121,16 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="EchoServerBoundedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.flowsynch.EchoServerBoundedKt" />
+      <module name="s2122v-li42d.aula-03-24.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EchoServerBoundedKt" />
         <item itemvalue="Gradle.Series1Tests.blocking_message_multiple_send_receive" />
         <item itemvalue="Gradle.Series1Tests.blocking message single dequeue on an initial empty queue" />
         <item itemvalue="Gradle.Series1Tests" />
@@ -149,6 +157,9 @@
       <workItem from="1649801526186" duration="1000" />
       <workItem from="1649801669910" duration="540000" />
       <workItem from="1649836658427" duration="1359000" />
+      <workItem from="1649865993986" duration="3556000" />
+      <workItem from="1649872321016" duration="9000" />
+      <workItem from="1649885093029" duration="1187000" />
     </task>
     <servers />
   </component>

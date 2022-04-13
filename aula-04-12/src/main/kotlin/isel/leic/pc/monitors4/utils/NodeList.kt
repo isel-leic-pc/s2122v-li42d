@@ -98,6 +98,7 @@ class NodeList<T> : Iterable<T> {
             throw IllegalStateException()
         val node =  head.next
         node.remove()
+        count--
         return node
     }
 
@@ -106,6 +107,7 @@ class NodeList<T> : Iterable<T> {
         if (isEmpty)
             throw IllegalStateException()
         node.remove()
+        count--
     }
 
     val first

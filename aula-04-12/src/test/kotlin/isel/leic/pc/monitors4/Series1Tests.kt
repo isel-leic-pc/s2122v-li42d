@@ -26,7 +26,7 @@ class Series1Tests {
      * - the created thread(s) should not execute any assertion.
      *   they just create the needed result artifacts
      * - the test thread collects the results produces joining the created threads(s)
-     *   with an appropriate timeout to avoid running tests undefinable times
+     *   with an appropriate timeout to avoid running tests with undefinable times
      * - finally the test thread runs the necessary assertions to check the
      *   test success
      */
@@ -175,7 +175,9 @@ class Series1Tests {
             if (r == null) {
                 fail("failed tryDequeue operation on result queue")
             }
-            resultSet.add(r!!)
+            else {
+                resultSet.add(r)
+            }
         }
 
         assertEquals(RESULT_SIZE, resultSet.size)
