@@ -74,7 +74,7 @@ class Series1Tests {
      *                                      : Collection<T>
      */
     @Test
-    fun blocking_message_multiple_send_receive() {
+    fun blocking_message_queue_with_multiple_senders_receivers() {
         val NWRITERS = 4
         val NREADERS = 3
         val CAPACITY = 5
@@ -138,15 +138,15 @@ class Series1Tests {
         }
 
         repeat(NREADERS) {
-            logger?.info("start reader}")
             val thread = thread {
+                logger?.info("start reader")
                 while(true) {
                     val value =
                         msgQueue.tryDequeue(2000.toDuration(DurationUnit.MILLISECONDS)) ?: break
                     if (resultQueue.tryEnqueue(listOf(value), Duration.INFINITE))
                         logger?.info("reader get $value")
                 }
-                logger?.info("end reader}")
+                logger?.info("end reader")
             }
             readerThreads.add(thread)
         }

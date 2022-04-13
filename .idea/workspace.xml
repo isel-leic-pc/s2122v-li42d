@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,6 +159,8 @@
       <workItem from="1649865993986" duration="3556000" />
       <workItem from="1649872321016" duration="9000" />
       <workItem from="1649885093029" duration="1187000" />
+      <workItem from="1649886634575" duration="108000" />
+      <workItem from="1649886953681" duration="67000" />
     </task>
     <servers />
   </component>
