@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PG3/1s2021-2022/alunos/grupos/grupo12/2122i-lr31d-G12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MPD/2s2020-2021/src/mpd-2021-leirt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -161,6 +163,12 @@
       <workItem from="1649885093029" duration="1187000" />
       <workItem from="1649886634575" duration="108000" />
       <workItem from="1649886953681" duration="67000" />
+      <workItem from="1649951806469" duration="2103000" />
+      <workItem from="1650184929924" duration="25000" />
+      <workItem from="1650358184055" duration="7050000" />
+      <workItem from="1650385539516" duration="4078000" />
+      <workItem from="1650445672372" duration="4044000" />
+      <workItem from="1650451681243" duration="25000" />
     </task>
     <servers />
   </component>

@@ -23,9 +23,9 @@ class Series1Tests {
      * - first, create the artifacts needed
      * - second, launch the thread(s) that executes the (potentially blocking) code to test
      * - start building simple tests that test single operations on a simple context
-     * - the created thread(s) should not execute any assertion.
+     * - the created thread(s) should not execute any assertion,
      *   they just create the needed result artifacts
-     * - the test thread collects the results produces joining the created threads(s)
+     * - the test thread collects the  results, after joining the created threads(s)
      *   with an appropriate timeout to avoid running tests with undefinable times
      * - finally the test thread runs the necessary assertions to check the
      *   test success
