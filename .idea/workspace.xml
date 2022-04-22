@@ -7,7 +7,8 @@
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-19/src/main/kotlin/isel/leic/pc/monitors5/SimpleThreadPoolExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-19/src/main/kotlin/isel/leic/pc/monitors5/SimpleThreadPoolExecutor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,14 +55,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MPD/2s2020-2021/src/mpd-2021-leirt" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.monitors6" />
       <recent name="isel.leic.pc.monitors3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EchoServerBoundedKt">
-    <configuration name="Series1Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SimpleThreadPoolExecutorTests.simple thread pool submission">
+    <configuration name="MapTests.concurrent map test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -64,9 +75,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":aula-04-12:test" />
+            <option value=":aula-04-21-part2:test" />
             <option value="--tests" />
-            <option value="&quot;isel.leic.pc.monitors4.Series1Tests&quot;" />
+            <option value="&quot;isel.leic.pc.MapTests.concurrent map test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -76,7 +87,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Series1Tests.blocking message single dequeue on an initial empty queue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MapTests.specialized word counter map test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -87,9 +98,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":aula-04-12:test" />
+            <option value=":aula-04-21-part2:test" />
             <option value="--tests" />
-            <option value="&quot;isel.leic.pc.monitors4.Series1Tests.blocking message single dequeue on an initial empty queue&quot;" />
+            <option value="&quot;isel.leic.pc.MapTests.specialized word counter map test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +110,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Series1Tests.blocking_message_multiple_send_receive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MapTests.synchronized map test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,9 +121,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":aula-04-12:test" />
+            <option value=":aula-04-21-part2:test" />
             <option value="--tests" />
-            <option value="&quot;isel.leic.pc.monitors4.Series1Tests.blocking_message_multiple_send_receive&quot;" />
+            <option value="&quot;isel.leic.pc.MapTests.synchronized map test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,19 +133,43 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EchoServerBoundedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.flowsynch.EchoServerBoundedKt" />
-      <module name="s2122v-li42d.aula-03-24.main" />
+    <configuration name="SimpleThreadPoolExecutorTests.simple thread pool submission" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-04-21-part1:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.monitors6.SimpleThreadPoolExecutorTests.simple thread pool submission&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProblematicKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronizers.lockfree.ProblematicKt" />
+      <module name="s2122v-li42d.aula-04-21-part2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.EchoServerBoundedKt" />
-        <item itemvalue="Gradle.Series1Tests.blocking_message_multiple_send_receive" />
-        <item itemvalue="Gradle.Series1Tests.blocking message single dequeue on an initial empty queue" />
-        <item itemvalue="Gradle.Series1Tests" />
+        <item itemvalue="Gradle.SimpleThreadPoolExecutorTests.simple thread pool submission" />
+        <item itemvalue="Gradle.MapTests.specialized word counter map test" />
+        <item itemvalue="Gradle.MapTests.concurrent map test (1)" />
+        <item itemvalue="Kotlin.ProblematicKt" />
+        <item itemvalue="Gradle.MapTests.synchronized map test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +204,11 @@
       <workItem from="1650385539516" duration="4078000" />
       <workItem from="1650445672372" duration="4044000" />
       <workItem from="1650451681243" duration="25000" />
+      <workItem from="1650453551926" duration="67000" />
+      <workItem from="1650538649826" duration="3240000" />
+      <workItem from="1650552132328" duration="8772000" />
+      <workItem from="1650617672111" duration="4509000" />
+      <workItem from="1650623002204" duration="250000" />
     </task>
     <servers />
   </component>

@@ -78,10 +78,8 @@ class SimpleThreadPoolExecutor(private val maxThreadPoolSize: Int) {
              // wait path
              // we will complete this code in the next lecture
              TODO()
-
          }
     }
-
 
     fun shutdown() {
         // we will complete this code in the next lecture

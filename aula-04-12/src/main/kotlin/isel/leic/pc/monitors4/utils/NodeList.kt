@@ -127,6 +127,12 @@ class NodeList<T> : Iterable<T> {
         return ListIterator()
     }
 
+    // create a new empty list
+    fun clear() {
+        head = Node<T>()
+        count = 0
+    }
+
     internal fun show() {
         forEach {
             println(it)
