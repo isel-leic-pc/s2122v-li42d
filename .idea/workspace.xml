@@ -7,8 +7,10 @@
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-19/src/main/kotlin/isel/leic/pc/monitors5/SimpleThreadPoolExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-19/src/main/kotlin/isel/leic/pc/monitors5/SimpleThreadPoolExecutor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-21-part1/src/main/kotlin/isel/leic/pc/monitors6/SimpleThreadPoolExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-21-part1/src/main/kotlin/isel/leic/pc/monitors6/SimpleThreadPoolExecutor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +56,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MPD/2s2020-2021/src/mpd-2021-leirt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-04-26/src/main/kotlin/isel/leic/pc/lockfree2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-04-26\src\main\kotlin\isel\leic\pc\lockfree2" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.lockfree3" />
       <recent name="isel.leic.pc.monitors6" />
       <recent name="isel.leic.pc.monitors3" />
     </key>
@@ -209,6 +215,13 @@
       <workItem from="1650552132328" duration="8772000" />
       <workItem from="1650617672111" duration="4509000" />
       <workItem from="1650623002204" duration="250000" />
+      <workItem from="1650624849513" duration="602000" />
+      <workItem from="1650626458945" duration="18000" />
+      <workItem from="1650970546189" duration="3668000" />
+      <workItem from="1650989522723" duration="3088000" />
+      <workItem from="1650996507031" duration="1391000" />
+      <workItem from="1651044739277" duration="1575000" />
+      <workItem from="1651145074127" duration="3059000" />
     </task>
     <servers />
   </component>
@@ -233,6 +246,11 @@
           <url>file://$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt</url>
           <line>173</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

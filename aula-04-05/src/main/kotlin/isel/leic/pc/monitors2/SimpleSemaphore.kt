@@ -43,7 +43,6 @@ class SimpleSemaphore(private var permits: Int) {
 
             }
             while(true)
-            permits -= 1
         }
     }
 

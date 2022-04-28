@@ -148,7 +148,6 @@ class SimpleThreadPoolExecutor(private val maxThreadPoolSize: Int) {
         for (worker in pendingWorkers) {
             worker.condition.signal()
         }
-        TODO("NodeList misses a clear operation") // done
         pendingWorkers.clear()
     }
 

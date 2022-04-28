@@ -17,7 +17,7 @@ class EchoServerBounded(private val port : Int) {
 
     val avaiableConnections = Semaphore(MAX_CLIENTS)
 
-    private inline fun sendResponse(writer: PrintWriter, resp : String) {
+    private fun sendResponse(writer: PrintWriter, resp : String) {
         writer.println(resp)
         writer.flush()
     }

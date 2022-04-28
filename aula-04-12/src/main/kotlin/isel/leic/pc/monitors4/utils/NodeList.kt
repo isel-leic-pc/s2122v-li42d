@@ -43,7 +43,7 @@ class NodeList<T> : Iterable<T> {
         var value get() = _val!!
             set(v: T) { _val = v}
 
-        private inline fun _insertBefore( _node : Node<T> ) {
+        private fun _insertBefore( _node : Node<T> ) {
             previous = _node.previous
             previous.next = this
 
@@ -51,7 +51,7 @@ class NodeList<T> : Iterable<T> {
             next = _node;
         }
 
-        private inline fun _insertAfter( _node : Node<T> ) {
+        private fun _insertAfter( _node : Node<T> ) {
             next = _node.next
             next.previous = this
             _node.next = this
