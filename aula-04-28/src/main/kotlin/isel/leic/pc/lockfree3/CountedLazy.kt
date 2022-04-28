@@ -31,15 +31,47 @@ class UnsafeCountedLazy<T>(
 
 }
 
-class CountedLazy<T>(val supplier : Supplier<T>,
+/**
+ * A safe version for the previoys UnsafeCountedLazy try
+ */
+class SafeCountedLazy<T>(val supplier : Supplier<T>,
                     val closer : Consumer<T>) {
 
+    private val counter = AtomicInteger(-1)
+
+    // must be volatile to guarantee correct publication
+    // since no happens-before exist associated to counter
+    @Volatile
+    private var value : T? = null
 
     fun acquire() : T {
-        TODO()
+        do {
+            val obsCounter = counter.get()
+            check(obsCounter != 0) { "Object is closed" }
+            if (obsCounter == -1) {
+                if (counter.compareAndSet(obsCounter, 1)) {
+                    return supplier.get().also() { value = it }
+                }
+            }
+            else {
+                if (counter.compareAndSet(obsCounter, obsCounter +1)) {
+                    while(value == null) Thread.yield()
+                    return value!!
+                }
+            }
+        }
+        while(true);
     }
 
     fun release() {
-       TODO()
+        do {
+            val obsCounter = counter.get()
+            check(obsCounter > 0)
+            if (counter.compareAndSet(obsCounter, obsCounter -1 )) {
+                if (obsCounter - 1 == 0)
+                    closer.accept(value!!)
+            }
+        }
+        while(true)
     }
 }
