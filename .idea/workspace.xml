@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-05/src/main/kotlin/isel/leic/pc/monitors2/SimpleSemaphore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/utils/NodeList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-21-part1/src/main/kotlin/isel/leic/pc/monitors6/SimpleThreadPoolExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-21-part1/src/main/kotlin/isel/leic/pc/monitors6/SimpleThreadPoolExecutor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/CountedLazy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/CountedLazy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/QueueLF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/QueueLF.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/StackLF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/StackLF.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/TwoLockQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/TwoLockQueue.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +220,10 @@
       <workItem from="1650996507031" duration="1391000" />
       <workItem from="1651044739277" duration="1575000" />
       <workItem from="1651145074127" duration="3059000" />
+      <workItem from="1651149300660" duration="950000" />
+      <workItem from="1651157323507" duration="6619000" />
+      <workItem from="1651165311546" duration="4000" />
+      <workItem from="1651167957447" duration="993000" />
     </task>
     <servers />
   </component>
