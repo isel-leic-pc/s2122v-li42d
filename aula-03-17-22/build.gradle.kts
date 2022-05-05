@@ -11,7 +11,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version "1.4.31"
 
     // Apply the java-library plugin for API and implementation separation.
-    `java-library`
+    // `java-library`
 }
 
 repositories {

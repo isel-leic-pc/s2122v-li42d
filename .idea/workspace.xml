@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/CountedLazy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/CountedLazy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/QueueLF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/QueueLF.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/StackLF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/StackLF.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/TwoLockQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-28/src/main/kotlin/isel/leic/pc/lockfree3/TwoLockQueue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-17-22/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-17-22/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -67,7 +68,7 @@
       <recent name="isel.leic.pc.monitors3" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleThreadPoolExecutorTests.simple thread pool submission">
+  <component name="RunManager" selected="Kotlin.EchoServerAsyncKt">
     <configuration name="MapTests.concurrent map test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -114,29 +115,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MapTests.synchronized map test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":aula-04-21-part2:test" />
-            <option value="--tests" />
-            <option value="&quot;isel.leic.pc.MapTests.synchronized map test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SimpleThreadPoolExecutorTests.simple thread pool submission" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,20 +138,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProblematicKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronizers.lockfree.ProblematicKt" />
-      <module name="s2122v-li42d.aula-04-21-part2.main" />
+    <configuration name="AsyncUtilsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.servers.AsyncUtilsKt" />
+      <module name="s2122v-li42d.aula-05-05-async-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServerAsyncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.servers.EchoServerAsyncKt" />
+      <module name="s2122v-li42d.aula-05-05-async-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EchoServerAsyncKt" />
+        <item itemvalue="Kotlin.AsyncUtilsKt" />
         <item itemvalue="Gradle.SimpleThreadPoolExecutorTests.simple thread pool submission" />
         <item itemvalue="Gradle.MapTests.specialized word counter map test" />
         <item itemvalue="Gradle.MapTests.concurrent map test (1)" />
-        <item itemvalue="Kotlin.ProblematicKt" />
-        <item itemvalue="Gradle.MapTests.synchronized map test" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +209,14 @@
       <workItem from="1651157323507" duration="6619000" />
       <workItem from="1651165311546" duration="4000" />
       <workItem from="1651167957447" duration="993000" />
+      <workItem from="1651172327972" duration="91000" />
+      <workItem from="1651214882694" duration="121000" />
+      <workItem from="1651596033962" duration="533000" />
+      <workItem from="1651600563818" duration="128000" />
+      <workItem from="1651756313729" duration="4703000" />
+      <workItem from="1651761730552" duration="4649000" />
+      <workItem from="1651767888162" duration="3907000" />
+      <workItem from="1651775234687" duration="598000" />
     </task>
     <servers />
   </component>
