@@ -105,7 +105,7 @@ class EchoServerAsync(private val port : Int) {
         fun process() {
             read {
                 if (it <= 0) {
-                    // the cleint as closed the connection
+                    // the client has closed the connection, so do we
                     closeConnection(clientChannel)
                 }
                 else {
