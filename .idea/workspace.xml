@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Album.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Artist.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/ArtistDetail.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/MusicApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Track.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/errorhandling/errors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/service/MusicService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/EchoServerAsyncCF.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/test/kotlin/isel/leic/pc/completablefutures2/CompletableFutureTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-05-async-intro/src/main/kotlin/isel/leic/pc/servers/EchoServerAsyncCF.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/aula-05-05-async-intro/src/main/kotlin/isel/leic/pc/servers/asyncUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-05-async-intro/src/main/kotlin/isel/leic/pc/servers/asyncUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,11 +66,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-04-26/src/main/kotlin/isel/leic/pc/lockfree2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-12-echo-server-with-CF\src\main\kotlin\isel\leic\pc\completablefutures2" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-10-completable-futures-intro\src\main\kotlin\isel\leic\pc\completablefutures\errorhandling" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-10-completable-futures-intro\src\main\kotlin\isel\leic\pc\completablefutures" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-04-26\src\main\kotlin\isel\leic\pc\lockfree2" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -65,9 +81,12 @@
       <recent name="isel.leic.pc.monitors6" />
       <recent name="isel.leic.pc.monitors3" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.completablefutures.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EchoServerAsyncKt">
-    <configuration name="MapTests.concurrent map test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotlin.EchoServerAsyncCFKt">
+    <configuration name="CompletableFutureTests.manually completion of a completable future" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,55 +97,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":aula-04-21-part2:test" />
+            <option value=":aula-05-12-echo-server-with-CF:test" />
             <option value="--tests" />
-            <option value="&quot;isel.leic.pc.MapTests.concurrent map test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MapTests.specialized word counter map test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":aula-04-21-part2:test" />
-            <option value="--tests" />
-            <option value="&quot;isel.leic.pc.MapTests.specialized word counter map test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleThreadPoolExecutorTests.simple thread pool submission" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":aula-04-21-part1:test" />
-            <option value="--tests" />
-            <option value="&quot;isel.leic.pc.monitors6.SimpleThreadPoolExecutorTests.simple thread pool submission&quot;" />
+            <option value="&quot;isel.leic.pc.completablefutures2.CompletableFutureTests.manually completion of a completable future&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,6 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EchoServerAsyncCFKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures2.EchoServerAsyncCFKt" />
+      <module name="s2122v-li42d.aula-05-12-echo-server-with-CF.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EchoServerAsyncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="isel.leic.pc.servers.EchoServerAsyncKt" />
       <module name="s2122v-li42d.aula-05-05-async-intro.main" />
@@ -150,13 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ErrorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures.errorhandling.ErrorsKt" />
+      <module name="s2122v-li42d.aula-05-10-completable-futures-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.EchoServerAsyncKt" />
+        <item itemvalue="Kotlin.EchoServerAsyncCFKt" />
+        <item itemvalue="Gradle.CompletableFutureTests.manually completion of a completable future" />
+        <item itemvalue="Kotlin.ErrorsKt" />
         <item itemvalue="Kotlin.AsyncUtilsKt" />
-        <item itemvalue="Gradle.SimpleThreadPoolExecutorTests.simple thread pool submission" />
-        <item itemvalue="Gradle.MapTests.specialized word counter map test" />
-        <item itemvalue="Gradle.MapTests.concurrent map test (1)" />
+        <item itemvalue="Kotlin.EchoServerAsyncKt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +202,19 @@
       <workItem from="1651761730552" duration="4649000" />
       <workItem from="1651767888162" duration="3907000" />
       <workItem from="1651775234687" duration="598000" />
-      <workItem from="1651827305697" duration="875000" />
+      <workItem from="1651827305697" duration="3094000" />
+      <workItem from="1651832075830" duration="2379000" />
+      <workItem from="1652085334008" duration="1439000" />
+      <workItem from="1652185014068" duration="2426000" />
+      <workItem from="1652199103104" duration="4574000" />
+      <workItem from="1652204871726" duration="424000" />
+      <workItem from="1652260782788" duration="1726000" />
+      <workItem from="1652292462046" duration="72000" />
+      <workItem from="1652292699672" duration="1211000" />
+      <workItem from="1652294355849" duration="1000" />
+      <workItem from="1652344266036" duration="3330000" />
+      <workItem from="1652366573763" duration="3949000" />
+      <workItem from="1652431813109" duration="582000" />
     </task>
     <servers />
   </component>

@@ -22,6 +22,8 @@
             <option value="$PROJECT_DIR$/aula-04-26" />
             <option value="$PROJECT_DIR$/aula-04-28" />
             <option value="$PROJECT_DIR$/aula-05-05-async-intro" />
+            <option value="$PROJECT_DIR$/aula-05-10-completable-futures-intro" />
+            <option value="$PROJECT_DIR$/aula-05-12-echo-server-with-CF" />
           </set>
         </option>
       </GradleProjectSettings>

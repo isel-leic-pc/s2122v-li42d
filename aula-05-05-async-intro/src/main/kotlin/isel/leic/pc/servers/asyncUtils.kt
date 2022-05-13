@@ -64,18 +64,18 @@ fun readTextFileAsync(fileName: String,
 }
 
 private fun main() {
-    println(readTextFileAsync("asyncUtils.kt").get())
-    /*
+    //println(readTextFileAsync("asyncUtils.kt").get())
+
     val cdl = CountDownLatch(1)
     readTextFileAsync("asyncUtils.kt") {
             content: String?, err: Throwable? ->
+        val current = Thread.currentThread()
+        println("current thread ${current.name} is daemon? ${current.isDaemon}")
         sleep(5000)
         println(content ?: err!!.message)
         cdl.countDown()
     }
-
     cdl.await()
-    */
 }
 
 
