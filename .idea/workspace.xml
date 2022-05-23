@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Album.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Artist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/ArtistDetail.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/MusicApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/api/Track.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/errorhandling/errors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-10-completable-futures-intro/src/main/kotlin/isel/leic/pc/completablefutures/service/MusicService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/EchoServerAsyncCF.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/test/kotlin/isel/leic/pc/completablefutures2/CompletableFutureTests.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-05-async-intro/src/main/kotlin/isel/leic/pc/servers/asyncUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-05-async-intro/src/main/kotlin/isel/leic/pc/servers/asyncUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,84 +55,74 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-12-echo-server-with-CF\src\main\kotlin\isel\leic\pc\completablefutures2" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-10-completable-futures-intro\src\main\kotlin\isel\leic\pc\completablefutures\errorhandling" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-10-completable-futures-intro\src\main\kotlin\isel\leic\pc\completablefutures" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-04-26\src\main\kotlin\isel\leic\pc\lockfree2" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\completablefutures4" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\sequences" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\swing" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\swing\view" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-17-echo-server-cf-with-shutdown\src\main\kotlin\isel\leic\pc\completablefutures3" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.coroutines.sequences" />
       <recent name="isel.leic.pc.lockfree3" />
       <recent name="isel.leic.pc.monitors6" />
       <recent name="isel.leic.pc.monitors3" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.coroutines" />
       <recent name="isel.leic.pc.completablefutures.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EchoServerAsyncCFKt">
-    <configuration name="CompletableFutureTests.manually completion of a completable future" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":aula-05-12-echo-server-with-CF:test" />
-            <option value="--tests" />
-            <option value="&quot;isel.leic.pc.completablefutures2.CompletableFutureTests.manually completion of a completable future&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AsyncUtilsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.servers.AsyncUtilsKt" />
-      <module name="s2122v-li42d.aula-05-05-async-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ThreadsKt">
     <configuration name="EchoServerAsyncCFKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures2.EchoServerAsyncCFKt" />
-      <module name="s2122v-li42d.aula-05-12-echo-server-with-CF.main" />
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures4.EchoServerAsyncCFKt" />
+      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServerAsyncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.servers.EchoServerAsyncKt" />
-      <module name="s2122v-li42d.aula-05-05-async-intro.main" />
+    <configuration name="FaviconsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.swing.view.FaviconsKt" />
+      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures.errorhandling.ErrorsKt" />
-      <module name="s2122v-li42d.aula-05-10-completable-futures-intro.main" />
+    <configuration name="Hello_worldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.basics.Hello_worldKt" />
+      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.sequences.PairsKt" />
+      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.ThreadsKt" />
+      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ThreadsKt" />
+        <item itemvalue="Kotlin.Hello_worldKt" />
+        <item itemvalue="Kotlin.FaviconsKt" />
         <item itemvalue="Kotlin.EchoServerAsyncCFKt" />
-        <item itemvalue="Gradle.CompletableFutureTests.manually completion of a completable future" />
-        <item itemvalue="Kotlin.ErrorsKt" />
-        <item itemvalue="Kotlin.AsyncUtilsKt" />
-        <item itemvalue="Kotlin.EchoServerAsyncKt" />
+        <item itemvalue="Kotlin.PairsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +193,22 @@
       <workItem from="1652294355849" duration="1000" />
       <workItem from="1652344266036" duration="3330000" />
       <workItem from="1652366573763" duration="3949000" />
-      <workItem from="1652431813109" duration="582000" />
+      <workItem from="1652431813109" duration="2610000" />
+      <workItem from="1652718669052" duration="21000" />
+      <workItem from="1652724208283" duration="1571000" />
+      <workItem from="1652732838124" duration="5000" />
+      <workItem from="1652772252759" duration="3819000" />
+      <workItem from="1652803834720" duration="8230000" />
+      <workItem from="1652812571308" duration="182000" />
+      <workItem from="1652862720649" duration="783000" />
+      <workItem from="1652893654844" duration="1646000" />
+      <workItem from="1652942083399" duration="593000" />
+      <workItem from="1652963260952" duration="6369000" />
+      <workItem from="1652971411008" duration="9565000" />
+      <workItem from="1652984153258" duration="1198000" />
+      <workItem from="1653034253413" duration="2097000" />
+      <workItem from="1653132494002" duration="976000" />
+      <workItem from="1653318761029" duration="1778000" />
     </task>
     <servers />
   </component>
@@ -244,6 +238,41 @@
           <url>file://$PROJECT_DIR$/aula-03-24/src/main/kotlin/isel/leic/pc/flowsynch/EchoServerBounded.kt</url>
           <line>21</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-04-12/src/test/kotlin/isel/leic/pc/monitors4/Series1Tests.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-17-echo-server-cf-with-shutdown/src/main/kotlin/isel/leic/pc/completablefutures3/asyncUtils.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-17-echo-server-cf-with-shutdown/src/main/kotlin/isel/leic/pc/completablefutures3/asyncUtils.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/coroutines/swing/model/favicons_model.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/coroutines/basics/hello_world.kt</url>
+          <line>74</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,20 +1,23 @@
-package isel.leic.pc.completablefutures2
+package isel.leic.pc.completablefutures3
 
 import java.nio.ByteBuffer
 import java.nio.channels.AsynchronousServerSocketChannel
 import java.nio.channels.AsynchronousSocketChannel
 import java.nio.channels.CompletionHandler
-import java.util.Random
+import java.util.*
 import java.util.concurrent.CompletableFuture
-
 
 val random = Random()
 
 val completion = object : CompletionHandler<Int, CompletableFuture<Int>> {
-
     override fun completed(result: Int?, attachment: CompletableFuture<Int>) {
+        /*
+        if (random.nextInt(4) == 3)
+            attachment.completeExceptionally(IllegalStateException("simulated error"))
+        else
 
-       attachment.complete(result)
+         */
+            attachment.complete(result)
     }
 
     override fun failed(exc: Throwable?, attachment: CompletableFuture<Int>) {
@@ -28,7 +31,14 @@ val completionSocket = object : CompletionHandler<AsynchronousSocketChannel,
     override fun completed(result: AsynchronousSocketChannel,
                            attachment: CompletableFuture<AsynchronousSocketChannel>) {
 
-        attachment.complete(result)
+        if (random.nextInt(4) == 3)
+            attachment.completeExceptionally(
+                IllegalStateException("simulated accept error")
+            )
+        else
+
+
+            attachment.complete(result)
     }
 
     override fun failed(exc: Throwable?,

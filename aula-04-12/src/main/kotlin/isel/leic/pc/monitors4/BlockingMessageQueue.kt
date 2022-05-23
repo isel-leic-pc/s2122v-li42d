@@ -15,12 +15,12 @@ class BlockingMessageQueue<T>(private val capacity: Int) {
 
     @Throws(InterruptedException::class)
     fun tryEnqueue(messages: List<T>, timeout: Duration): Boolean {
-        TODO()
+        return false
     }
 
     @Throws(InterruptedException::class)
     fun tryDequeue(timeout: Duration): T? {
-       TODO()
+       return null
     }
 
 }
