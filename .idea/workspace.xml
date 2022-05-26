@@ -7,8 +7,8 @@
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-04-12/src/main/kotlin/isel/leic/pc/monitors4/BlockingMessageQueue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-12-echo-server-with-CF/src/main/kotlin/isel/leic/pc/completablefutures2/asyncUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-17-echo-server-cf-with-shutdown/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-17-echo-server-cf-with-shutdown/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4/LifeManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4/LifeManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/exceptions" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\completablefutures4" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\sequences" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\swing" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\coroutines\swing\view" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-17-echo-server-cf-with-shutdown\src\main\kotlin\isel\leic\pc\completablefutures3" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-24\src\main\kotlin\isel\leic\pc\coroutines2\exceptions" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-24\src\main\kotlin\isel\leic\pc\coroutines2" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-24\src\main\kotlin\isel\leic\pc\coroutines2\cancelation" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-24\src\main\kotlin\isel\leic\pc\coroutines2\serversCR" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-19-coroutines-intro\src\main\kotlin\isel\leic\pc\servers" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="isel.leic.pc.coroutines.sequences" />
@@ -76,53 +76,54 @@
       <recent name="isel.leic.pc.monitors3" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.servers" />
       <recent name="isel.leic.pc.coroutines" />
       <recent name="isel.leic.pc.completablefutures.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ThreadsKt">
-    <configuration name="EchoServerAsyncCFKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.completablefutures4.EchoServerAsyncCFKt" />
-      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+  <component name="RunManager" selected="Kotlin.NocancellablecoroutineKt">
+    <configuration name="EchoServerCRKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines2.serversCR.EchoServerCRKt" />
+      <module name="s2122v-li42d.aula-05-24.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaviconsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.swing.view.FaviconsKt" />
-      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+    <configuration name="ExamplesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines2.jobs.ExamplesKt" />
+      <module name="s2122v-li42d.aula-05-24.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello_worldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.basics.Hello_worldKt" />
-      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+    <configuration name="NocancellablecoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines2.cancelation.NocancellablecoroutineKt" />
+      <module name="s2122v-li42d.aula-05-24.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.sequences.PairsKt" />
-      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+    <configuration name="SupervisorScopeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines2.exceptions.SupervisorScopeKt" />
+      <module name="s2122v-li42d.aula-05-24.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines.ThreadsKt" />
-      <module name="s2122v-li42d.aula-05-19-coroutines-intro.main" />
+    <configuration name="Tick_tackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines2.cancelation.Tick_tackKt" />
+      <module name="s2122v-li42d.aula-05-24.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ThreadsKt" />
-        <item itemvalue="Kotlin.Hello_worldKt" />
-        <item itemvalue="Kotlin.FaviconsKt" />
-        <item itemvalue="Kotlin.EchoServerAsyncCFKt" />
-        <item itemvalue="Kotlin.PairsKt" />
+        <item itemvalue="Kotlin.NocancellablecoroutineKt" />
+        <item itemvalue="Kotlin.Tick_tackKt" />
+        <item itemvalue="Kotlin.ExamplesKt" />
+        <item itemvalue="Kotlin.SupervisorScopeKt" />
+        <item itemvalue="Kotlin.EchoServerCRKt" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +210,14 @@
       <workItem from="1653034253413" duration="2097000" />
       <workItem from="1653132494002" duration="976000" />
       <workItem from="1653318761029" duration="1778000" />
+      <workItem from="1653322371850" duration="21588000" />
+      <workItem from="1653398261712" duration="730000" />
+      <workItem from="1653408351585" duration="4905000" />
+      <workItem from="1653471273070" duration="616000" />
+      <workItem from="1653484699769" duration="17000" />
+      <workItem from="1653501800734" duration="626000" />
+      <workItem from="1653548131333" duration="2097000" />
+      <workItem from="1653559844883" duration="762000" />
     </task>
     <servers />
   </component>
@@ -273,6 +282,41 @@
           <url>file://$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/coroutines/basics/hello_world.kt</url>
           <line>74</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/cancelation/runBlocking.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/cancelation/runBlocking.kt</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/serversCR/EchoServerCR.kt</url>
+          <line>119</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/serversCR/EchoServerCR.kt</url>
+          <line>103</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/serversCR/LifeManager.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/utils.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/exceptions/supervisorScope.kt</url>
+          <line>66</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

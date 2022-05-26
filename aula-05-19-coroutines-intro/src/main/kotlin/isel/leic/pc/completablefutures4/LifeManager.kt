@@ -19,8 +19,8 @@ class LifeManager(val startAction : () -> Unit) {
     fun shutdown() : CompletableFuture<Boolean> {
         if (_inShutdown.compareAndSet(false,true)) {
             startAction()
-          //  if (count == 0)
-          //      terminated.complete(true)
+            if (count == 0)
+               terminated.complete(true)
         }
         return terminated
     }

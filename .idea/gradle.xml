@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/aula-05-12-echo-server-with-CF" />
             <option value="$PROJECT_DIR$/aula-05-17-echo-server-cf-with-shutdown" />
             <option value="$PROJECT_DIR$/aula-05-19-coroutines-intro" />
+            <option value="$PROJECT_DIR$/aula-05-24" />
           </set>
         </option>
       </GradleProjectSettings>
