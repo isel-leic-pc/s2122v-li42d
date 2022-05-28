@@ -24,7 +24,6 @@ fun tick_tack() {
 
     sleep(6000)
     job1.cancel()
-
 }
 
 

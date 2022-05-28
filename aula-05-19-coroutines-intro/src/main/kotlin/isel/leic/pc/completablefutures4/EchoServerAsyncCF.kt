@@ -24,12 +24,12 @@ private val decoder = charSet.newDecoder()
  * for nio2 asynchronous sockets
  */
 
-class EchoServerAsyncCF( port : Int) {
+class EchoServerAsyncCF( private val port : Int) {
     private val exitCmd = "exit"
     private val byeMsg = "bye" + System.lineSeparator()
 
     // to support controlled shutdown
-    val lifeManager = LifeManager {
+    private val lifeManager = LifeManager {
         logger.info("Shutdown process")
 
         serverChannel.close()
@@ -39,17 +39,13 @@ class EchoServerAsyncCF( port : Int) {
 
     val group =
         AsynchronousChannelGroup.withThreadPool(Executors.newSingleThreadExecutor())
-    val serverChannel : AsynchronousServerSocketChannel
+    private val serverChannel = AsynchronousServerSocketChannel.open(group)
 
-    init {
-        serverChannel = AsynchronousServerSocketChannel.open(group)
-        serverChannel.bind(InetSocketAddress("0.0.0.0", port))
-    }
 
     fun run() {
         // using a backed threadpool with a single thread
         // this remarks (while not identical) the node execution environment
-
+        serverChannel.bind(InetSocketAddress("0.0.0.0", port))
         // asynchronous accept loop
         fun runInternal() {
             if (lifeManager.inShutdown) return
