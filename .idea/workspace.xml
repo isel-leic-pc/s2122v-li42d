@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4/EchoServerAsyncCF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-19-coroutines-intro/src/main/kotlin/isel/leic/pc/completablefutures4/EchoServerAsyncCF.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/cancelation/tick-tack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-24/src/main/kotlin/isel/leic/pc/coroutines2/cancelation/tick-tack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/AsyncSemaphore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +240,12 @@
       <workItem from="1653663768044" duration="891000" />
       <workItem from="1653724179514" duration="9000" />
       <workItem from="1653727653708" duration="531000" />
+      <workItem from="1653728274442" duration="731000" />
+      <workItem from="1653730827086" duration="18000" />
+      <workItem from="1653812219024" duration="843000" />
+      <workItem from="1653827495017" duration="634000" />
+      <workItem from="1653907857461" duration="6160000" />
+      <workItem from="1653995306688" duration="339000" />
     </task>
     <servers />
   </component>
