@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/AsyncSemaphore.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/servers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -61,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-06-02\src\main\kotlin\isel\leic\pc\coroutines4\servers" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-31-asynchronizers\src\main\kotlin\isel\leic\pc\coroutines4\servers" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3\servers" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3\asynchronizers" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\test\kotlin\isel\leic\pc\coroutines3" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3\clients" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="isel.leic.pc.coroutines3.musicapi" />
@@ -75,13 +76,15 @@
       <recent name="isel.leic.pc.monitors3" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.coroutines4" />
+      <recent name="isel.leic.pc.coroutines4.servers" />
       <recent name="isel.leic.pc.servers" />
       <recent name="isel.leic.pc.coroutines" />
       <recent name="isel.leic.pc.completablefutures.service" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.EchoServerCRKt">
-    <configuration name="MusicServiceTests.bowie_coldplay_albums (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AsyncSemaphoreTests.acquire_with_cancel_test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -92,9 +95,78 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":aula-05-26:test" />
+            <option value=":aula-05-31-asynchronizers:test" />
             <option value="--tests" />
-            <option value="&quot;isel.leic.pc.coroutines.MusicServiceTests.bowie_coldplay_albums&quot;" />
+            <option value="&quot;isel.leic.pc.coroutines4.AsyncSemaphoreTests.acquire_with_cancel_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AsyncSemaphoreTests.acquire_with_timeout_test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-05-31-asynchronizers:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.coroutines4.AsyncSemaphoreTests.acquire_with_timeout_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AsyncSemaphoreTests.async semaphore multiple release aquires test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-05-31-asynchronizers:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.coroutines4.AsyncSemaphoreTests.async semaphore multiple release aquires test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":aula-06-02:test" />
+            <option value="--tests" />
+            <option value="&quot;isel.leic.pc.coroutines4.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -105,29 +177,8 @@
       <method v="2" />
     </configuration>
     <configuration name="EchoServerCRKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines3.servers.EchoServerCRKt" />
-      <module name="s2122v-li42d.aula-05-26.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamplesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines3.asynchronizers.ExamplesKt" />
-      <module name="s2122v-li42d.aula-05-26.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupervisorScopeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines3.exceptions.SupervisorScopeKt" />
-      <module name="s2122v-li42d.aula-05-26.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuspendablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.kotlin_concurrency.suspendables.SuspendablesKt" />
-      <module name="s2122v-li42d.aula-05-26.main" />
+      <option name="MAIN_CLASS_NAME" value="isel.leic.pc.coroutines4.servers.EchoServerCRKt" />
+      <module name="s2122v-li42d.aula-06-02.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,10 +186,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.EchoServerCRKt" />
-        <item itemvalue="Kotlin.ExamplesKt" />
-        <item itemvalue="Kotlin.SuspendablesKt" />
-        <item itemvalue="Gradle.MusicServiceTests.bowie_coldplay_albums (1)" />
-        <item itemvalue="Kotlin.SupervisorScopeKt" />
+        <item itemvalue="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context" />
+        <item itemvalue="Gradle.AsyncSemaphoreTests.async semaphore multiple release aquires test" />
+        <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_timeout_test (1)" />
+        <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_cancel_test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +296,14 @@
       <workItem from="1653812219024" duration="843000" />
       <workItem from="1653827495017" duration="634000" />
       <workItem from="1653907857461" duration="6160000" />
-      <workItem from="1653995306688" duration="339000" />
+      <workItem from="1653995306688" duration="2180000" />
+      <workItem from="1654008657713" duration="1584000" />
+      <workItem from="1654013644394" duration="4507000" />
+      <workItem from="1654070639554" duration="306000" />
+      <workItem from="1654156615408" duration="6683000" />
+      <workItem from="1654169693853" duration="685000" />
+      <workItem from="1654178150571" duration="1313000" />
+      <workItem from="1654180476512" duration="37000" />
     </task>
     <servers />
   </component>
@@ -365,6 +423,11 @@
           <url>file://$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/suspendables/suspendables.kt</url>
           <line>38</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt</url>
+          <line>65</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
