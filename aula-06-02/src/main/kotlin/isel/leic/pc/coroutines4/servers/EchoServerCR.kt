@@ -127,7 +127,6 @@ class EchoServerCR(private val port : Int) {
         group.shutdown()
         group.awaitTermination(Long.MAX_VALUE, TimeUnit.MILLISECONDS)
     }
-
 }
 
 private fun main() {

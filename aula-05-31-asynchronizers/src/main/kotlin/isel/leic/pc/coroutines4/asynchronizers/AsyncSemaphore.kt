@@ -22,14 +22,12 @@ class AsyncSemaphore(initialPermits: Int) {
     private val pendingAcquires = mutableListOf<PendingAcquire>()
 
     private fun internalAcquire(cont: CancellableContinuation<Unit>) : PendingAcquire? {
+
         monitor.withLock {
-            /*
             if (permits > 0) {
                 permits--
-                cont.resume(Unit)
                 return null
             }
-            */
 
             val node = PendingAcquire(cont)
             pendingAcquires.add(node)
@@ -37,6 +35,8 @@ class AsyncSemaphore(initialPermits: Int) {
         }
     }
 
+    // on cancellation/timeout remove the node if it was still in then
+    // pending list
     private fun cancelCleanup(node : PendingAcquire?) {
         if (node != null) {
             monitor.withLock {
@@ -62,8 +62,15 @@ class AsyncSemaphore(initialPermits: Int) {
 
                 val node = internalAcquire(cont)
 
-                cont.invokeOnCancellation {
-                    cancelCleanup(node)
+                if (node != null) {
+                    // regist callback for cleanup
+                    // on cancel/timeout
+                    cont.invokeOnCancellation {
+                        cancelCleanup(node)
+                    }
+                }
+                else {
+                    cont.resume(Unit)
                 }
             }
         }
@@ -83,6 +90,7 @@ class AsyncSemaphore(initialPermits: Int) {
         node?.cont?.resume(Unit)
     }
 
+    // Just for debug purposes
     val pendingAcquiresCount : Int
         get() {
             monitor.withLock {

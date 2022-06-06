@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/asynchronizers/examples.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers/EchoServerCR.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers/EchoServerCR.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,6 +303,12 @@
       <workItem from="1654169693853" duration="685000" />
       <workItem from="1654178150571" duration="1313000" />
       <workItem from="1654180476512" duration="37000" />
+      <workItem from="1654180733991" duration="2046000" />
+      <workItem from="1654246897912" duration="1782000" />
+      <workItem from="1654279815600" duration="20000" />
+      <workItem from="1654371920561" duration="1897000" />
+      <workItem from="1654447914994" duration="1275000" />
+      <workItem from="1654530557592" duration="628000" />
     </task>
     <servers />
   </component>
@@ -423,11 +428,6 @@
           <url>file://$PROJECT_DIR$/aula-05-26/src/main/kotlin/isel/leic/pc/coroutines3/suspendables/suspendables.kt</url>
           <line>38</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt</url>
-          <line>65</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
