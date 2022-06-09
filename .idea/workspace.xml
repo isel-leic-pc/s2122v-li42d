@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-05-31-asynchronizers/src/main/kotlin/isel/leic/pc/coroutines4/asynchronizers/AsyncSemaphore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers/EchoServerCR.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers/EchoServerCR.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-06-02/src/test/kotlin/isel/leic/pc/coroutines4/CoroutinesTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-02/src/test/kotlin/isel/leic/pc/coroutines4/CoroutinesTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +76,14 @@
       <recent name="isel.leic.pc.monitors3" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc.roomchat" />
       <recent name="isel.leic.pc.coroutines4" />
       <recent name="isel.leic.pc.coroutines4.servers" />
       <recent name="isel.leic.pc.servers" />
       <recent name="isel.leic.pc.coroutines" />
-      <recent name="isel.leic.pc.completablefutures.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EchoServerCRKt">
+  <component name="RunManager" selected="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context (1)">
     <configuration name="AsyncSemaphoreTests.acquire_with_cancel_test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context (1)" />
         <item itemvalue="Kotlin.EchoServerCRKt" />
-        <item itemvalue="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context" />
         <item itemvalue="Gradle.AsyncSemaphoreTests.async semaphore multiple release aquires test" />
         <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_timeout_test (1)" />
         <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_cancel_test (1)" />
@@ -309,6 +310,11 @@
       <workItem from="1654371920561" duration="1897000" />
       <workItem from="1654447914994" duration="1275000" />
       <workItem from="1654530557592" duration="628000" />
+      <workItem from="1654532628849" duration="292000" />
+      <workItem from="1654548780545" duration="799000" />
+      <workItem from="1654619558399" duration="844000" />
+      <workItem from="1654782731906" duration="914000" />
+      <workItem from="1654790168100" duration="1090000" />
     </task>
     <servers />
   </component>

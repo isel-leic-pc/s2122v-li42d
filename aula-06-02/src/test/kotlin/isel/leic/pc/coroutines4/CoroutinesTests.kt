@@ -20,7 +20,7 @@ class CoroutinesTests {
             job.join()
             println("job= $job")
             println("ctxJob= $ctxJob")
-            assertEquals(ctxJob, job)
+            assertTrue(ctxJob === job)
         }
     }
 }
