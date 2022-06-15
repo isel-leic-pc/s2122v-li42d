@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-06-09/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-09/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-06-14-old-tests/src/main/kotlin/i2020_ep1/oper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-14-old-tests/src/main/kotlin/i2020_ep1/oper.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,6 +298,7 @@
       <workItem from="1654782731906" duration="914000" />
       <workItem from="1654790168100" duration="1690000" />
       <workItem from="1655314380725" duration="1465000" />
+      <workItem from="1655316185041" duration="560000" />
     </task>
     <servers />
   </component>

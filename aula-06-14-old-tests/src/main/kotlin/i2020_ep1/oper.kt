@@ -8,7 +8,7 @@ import java.lang.Thread.sleep
 import kotlin.system.measureTimeMillis
 private val logger = KotlinLogging.logger {}
 
-fun a(t : T)  : T {
+fun a(t : T)  : T{
     sleep(1000)
     return t
 }
@@ -28,6 +28,8 @@ fun d(t: T, acc : T) : T {
     return acc
 }
 
+// all operations, except d, are commutative and associative, so can be done
+// in some arbitrary order
 fun oper(xs: Array<T>, ys: Array<T>, initial: T) : T
 {
     if (xs.size != ys.size) throw  IllegalArgumentException("...");
@@ -39,7 +41,10 @@ fun oper(xs: Array<T>, ys: Array<T>, initial: T) : T
     return acc;
 }
 
-suspend fun a1(t : T) : T {
+
+// suspend version
+
+suspend fun a1(t : T) : T{
     delay(1000)
     return t
 }
