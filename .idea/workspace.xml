@@ -7,7 +7,7 @@
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-06-02/src/test/kotlin/isel/leic/pc/coroutines4/CoroutinesTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-02/src/test/kotlin/isel/leic/pc/coroutines4/CoroutinesTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-06-09/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-09/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,30 +83,7 @@
       <recent name="isel.leic.pc.coroutines" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context (1)">
-    <configuration name="AsyncSemaphoreTests.acquire_with_cancel_test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":aula-05-31-asynchronizers:test" />
-            <option value="--tests" />
-            <option value="&quot;isel.leic.pc.coroutines4.AsyncSemaphoreTests.acquire_with_cancel_test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.OperKt">
     <configuration name="AsyncSemaphoreTests.acquire_with_timeout_test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,13 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="i2020_ep1.OperKt" />
+      <module name="s2122v-li42d.aula-06-14-old-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OperKt" />
         <item itemvalue="Gradle.CoroutinesTests.check if job returned from builders is the same that is retrieved from coroutine context (1)" />
         <item itemvalue="Kotlin.EchoServerCRKt" />
         <item itemvalue="Gradle.AsyncSemaphoreTests.async semaphore multiple release aquires test" />
         <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_timeout_test (1)" />
-        <item itemvalue="Gradle.AsyncSemaphoreTests.acquire_with_cancel_test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +298,8 @@
       <workItem from="1654548780545" duration="799000" />
       <workItem from="1654619558399" duration="844000" />
       <workItem from="1654782731906" duration="914000" />
-      <workItem from="1654790168100" duration="1090000" />
+      <workItem from="1654790168100" duration="1690000" />
+      <workItem from="1655314380725" duration="1465000" />
     </task>
     <servers />
   </component>
