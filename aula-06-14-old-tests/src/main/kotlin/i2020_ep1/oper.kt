@@ -28,8 +28,7 @@ fun d(t: T, acc : T) : T {
     return acc
 }
 
-// all operations, except d, are commutative and associative, so can be done
-// in some arbitrary order
+
 fun oper(xs: Array<T>, ys: Array<T>, initial: T) : T
 {
     if (xs.size != ys.size) throw  IllegalArgumentException("...");
@@ -64,6 +63,10 @@ suspend fun d1(t: T, acc : T) : T {
     return acc
 }
 
+
+// suspend oper1 implementation optimizing potencial parallelism.
+// all operations, except d, are commutative and associative,
+// so they can be done in some arbitrary order
 suspend fun oper1(xs: Array<T>, ys: Array<T>, initial: T) : T =
                         coroutineScope {
     if (xs.size != ys.size) throw  IllegalArgumentException("...");
