@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f89c0c6-42eb-44c6-9cfd-1f45e72e9537" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula-06-14-old-tests/src/main/kotlin/i2020_ep1/oper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aula-06-14-old-tests/src/main/kotlin/i2020_ep1/oper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-06-02/src/main/kotlin/isel/leic/pc/coroutines4/servers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula-ext-07-04/src/main/kotlin/isel/leic/pc/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,18 +61,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-ext-07-04\src\main\kotlin\isel\leic\pc\utils" />
+      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-ext-07-04\src\main\kotlin\isel\leic\pc" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-06-02\src\main\kotlin\isel\leic\pc\coroutines4\servers" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-31-asynchronizers\src\main\kotlin\isel\leic\pc\coroutines4\servers" />
       <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3\servers" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3\asynchronizers" />
-      <recent name="C:\home\disciplinas\PC\2s2021-2022\src\s2122v-li42d\aula-05-26\src\main\kotlin\isel\leic\pc\coroutines3" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="isel.leic.pc" />
       <recent name="isel.leic.pc.coroutines3.musicapi" />
       <recent name="isel.leic.pc.coroutines.sequences" />
       <recent name="isel.leic.pc.lockfree3" />
       <recent name="isel.leic.pc.monitors6" />
-      <recent name="isel.leic.pc.monitors3" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="isel.leic.pc.roomchat" />
@@ -300,7 +301,11 @@
       <workItem from="1655314380725" duration="1465000" />
       <workItem from="1655316185041" duration="560000" />
       <workItem from="1655327103438" duration="303000" />
-      <workItem from="1655452224911" duration="139000" />
+      <workItem from="1655452224911" duration="2105000" />
+      <workItem from="1655660860790" duration="1190000" />
+      <workItem from="1656065570223" duration="1070000" />
+      <workItem from="1656952502980" duration="3418000" />
+      <workItem from="1656969588629" duration="3145000" />
     </task>
     <servers />
   </component>
